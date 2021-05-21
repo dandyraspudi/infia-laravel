@@ -1,0 +1,848 @@
+html{
+    overflow-x: hidden;
+}
+
+
+/* global */
+
+    .fs-144{
+        font-size: 144px;
+    }
+    .fs-64{
+        font-size: 64px;
+    }
+    .fs-48{
+        font-size: 48px;
+    }
+    .fs-36{
+        font-size: 36px;
+    }
+    .fs-24{
+        font-size: 24px;
+    }
+    .fs-18{
+        font-size: 18px;
+    }
+    .fs-16{
+        font-size: 16px;
+    }
+    .fs-14{
+        font-size: 14px;
+    }
+
+    .b-dark-blue{
+        background: #0C3E65;
+    }
+    .c-dark-blue{
+        color: #0C3E65;
+    }
+    .b-light-blue{
+        background: #9BCBED;
+    }
+    .c-light-blue{
+        color: #9BCBED;
+    }
+    .b-green{
+        background: #15AB9D;
+    }
+    .c-green{
+        color: #15AB9D;
+    }
+    .b-orange{
+        background: #F79624;
+    }
+    .c-orange{
+        color: #F79624;
+    }
+    .b-yellow{
+        background: #FAE536;
+    }
+    .c-yellow{
+        color: #FAE536;
+    }
+    .b-white{
+        background: #fff;
+    }
+    .c-white{
+        color: #fff;
+    }
+    .c-light-grey{
+        color: #828282;
+    }
+    .c-black{
+        color: #000;
+    }
+    .b-black{
+        background: #000;
+    }
+
+    .opacity-7{
+        opacity: .7;
+    }
+    .opacity-1{
+        opacity: 1 !important;
+    }
+
+    .fw-900{
+        font-weight: 900;
+    }
+    .fw-700{
+        font-weight: 700;
+    }
+    .fw-400{
+        font-weight: 400;
+    }
+
+    .l-spacing-1{
+        letter-spacing: 0.1em;
+    }
+    .l-spacing-2{
+        letter-spacing: 0.2em;
+    }
+    .l-spacing-195{
+        letter-spacing: 0.195em;
+    }
+
+    .l-height-130{
+        line-height: 130%;
+    }
+    .l-height-75{
+        line-height: 75px;
+    }
+    .l-height-56{
+        line-height: 56px;
+    }
+    .l-height-28{
+        line-height: 28px;
+    }
+    .l-height-24{
+        line-height: 24px;
+    }
+    .l-height-20{
+        line-height: 20px;
+    }
+    .l-height-19{
+        line-height: 19px;
+    }
+
+    .pt-100-200{
+        padding-top: 100px;
+        padding-bottom: 200px;
+    }
+    .pt-100{
+        padding-top: 100px;
+    }
+    .pb-100{
+        padding-bottom: 100px;
+    }
+    .pb-150{
+        padding-bottom: 150px;
+    }
+    .pt-50{
+        padding-top: 50px;
+    }
+    .ptb-40{
+        padding: 40px 0px;
+    }
+    .mt-50{
+        margin-top: 50px;
+    }
+    .ptb-50{
+        padding: 50px 0px;
+    }
+    .mb-50{
+        margin-bottom: 50px;
+    }
+    .mb-100{
+        margin-bottom: 100px;
+    }
+    .mt-100{
+        margin-bottom: 100px;
+    }
+
+    .br-10{
+        border-radius: 10px 10px;
+    }
+
+    .g-5{
+        gap: 5px;
+    }
+
+    .z-99{
+        z-index: 99;
+    }
+    .-z-1{
+        z-index: -1;
+    }
+
+    .r-t-b-0{
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+
+    .over-y{
+        overflow-y: hidden;
+    }
+
+    .placeholder::placeholder{
+        font-size: 18px;
+        color: #000;
+        opacity: 0.5;
+    }
+
+    .icon{
+        width: 25px;
+        height: 25px;
+    }
+
+    a{
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .b-green-5{
+        border: 5px solid #15AB9D;
+        box-sizing: border-box;
+        max-width: 161px;
+        min-height: 161px;
+    }
+    .contact-icon{
+        max-width: 60px;
+    }
+
+    .border-style{
+        outline: none;
+        border: none;
+    }
+
+    .shadow{
+        filter: drop-shadow(10px 15px 50px rgba(12, 62, 101, 0.2));
+    }
+/* global */
+
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+/* navbar */
+
+    .nav-group{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .logo{
+        width: 25%;
+    }
+
+/* navbar */
+
+/* image overlay */
+
+    .image-main{
+        width: 100%;
+        position: relative;
+    }
+    .main-top-left:before{
+        content: url('./assets/rect-main.png');
+        position: absolute;
+        max-width: 20px;
+        max-height: 20px;
+        z-index: 1;
+        transform: scale(.3);
+    }
+
+/* image overlay */
+
+/* header main */
+    header{
+        overflow-x: hidden;
+    }
+    .header-main{
+        overflow-x: hidden;
+    }
+    .header-main h1{
+        margin-bottom: 60px;
+    }
+    .btn-discover{
+        padding: 20px 30px;
+        border: 4px solid #15AB9D;
+        box-sizing: border-box;
+        position: relative;
+    }
+    .btn-discover::after {
+        content: "";
+        display: block;
+        width: 32px;
+        height: 2px;
+        background: #FAE536;
+        right: -15%;
+        top: 50%;
+        position: absolute;
+    }
+    .btn-service{
+        border: 4px solid #FAE536;
+        box-sizing: border-box;
+        padding: 20px 30px;
+        position: relative;
+    }
+    .btn-service::after {
+        content: "";
+        display: block;
+        width: 32px;
+        height: 2px;
+        background: #0C3E65;
+        right: -15%;
+        top: 50%;
+        position: absolute;
+    }
+    .arrow{
+        margin-top: 50px;
+    }
+    .btn-arrow{
+        border: none;
+        outline: none;
+        background: none;
+        cursor: pointer;
+    }
+    .btn-arrow img{
+        width: 35px;
+        height: 24px;
+    }
+
+/* header main */
+
+/* main */
+
+.main-bottom-head{
+    padding-top: 100px;
+}
+.btn-work{
+    border: 4px solid #15AB9D;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    position: relative;
+}
+.btn-work::after {
+    content: "";
+    display: block;
+    width: 32px;
+    height: 2px;
+    background: #FAE536;
+    right: -15%;
+    top: 50%;
+    position: absolute;
+}
+.image-content-carousel{
+    /* width: 90%; */
+}
+
+.carousel-works{
+    overflow: scroll;
+    gap: 100px;
+    right: 0;
+    width: 90%;
+}
+.main-image-carousel{
+    margin-right: 100px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.carousel-works::-webkit-scrollbar {
+    display: none;
+}
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+.carousel-works {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.client-logo{
+    gap: 100px;
+}
+.image{
+    width: 20%;
+}
+.client-logo img{
+    height: 20px !important;
+}
+
+
+/* main */
+
+/* footer */
+
+    .top-footer{
+        margin-top: 100px;
+    }
+    .btn-project{
+        border: 4px solid #15AB9D;
+        box-sizing: border-box;
+        padding: 20px 30px;
+        position: relative;
+    }
+    .btn-project::after {
+        content: "";
+        display: block;
+        width: 32px;
+        height: 2px;
+        background: #FAE536;
+        right: -10%;
+        top: 50%;
+        position: absolute;
+    }
+
+    .bottom-footer{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        border-top: 1px solid #C4C4C4;
+    }
+
+/* footer */
+
+/* background image */
+
+.bg-head-right{
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.bg-main{
+    width: 40%;
+}
+.bg-main-top{
+    top: 10%;
+    left: 10%;
+}
+.bg-main-bottom{
+    width: 30%;
+    left: 20%;
+    top: 15%;
+}
+
+.bg-main-right{
+    right: 5%;
+    height: 70%;
+    width: 90%;
+}
+.bg-main-right-bottom{
+    bottom: 30%;
+    left: 15%;
+}
+
+.bg-main-left{
+    left: 5%;
+    height: 70%;
+    width: 90%;
+}
+.bg-main-left-bottom{
+    right: 5%;
+    bottom: 30%;
+}
+
+
+/* page career */
+    .card-career-group{
+        gap: 16px;
+        width: 90%;
+    }
+    .card-career{
+        min-width: 383px;
+        min-height: 309px;
+        border: 1px solid #15AB9D;
+        box-sizing: border-box;
+        box-shadow: 8px 10px 40px rgba(0, 0, 0, 0.15);
+        border-radius: 20px;
+    }
+    .card-body{
+        max-height: 80px;
+    }
+    .btn-detail{
+        bottom: 0;
+        right: 0;
+        left: 0;
+        border-radius: 0px 0px 20px 20px;
+    }
+
+    .form-group{
+        border-radius: 10px 10px 0px 0px;
+    }
+    .input-file{
+        height: 58px;
+    }
+    .btn-apply{
+        width: 100%;
+        min-height: 81px;
+        border: none;
+        outline: none;
+        border-radius: 0px 0px 10px 10px;
+        cursor: pointer;
+    }
+/* page career */
+
+
+/* page career detail */
+    .input-file-row{
+        cursor: pointer;
+        position: relative;
+        border-radius: 5px;
+    }
+    .input-file{
+        opacity: 0;
+        z-index: 1;
+        cursor: pointer;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .txt-input-group{
+        gap: 16px;
+    }
+    .file-icon{
+        width: 24px;
+    }
+/* page career detail */
+
+
+/* page contact */
+
+    .main-contact{
+        gap: 16px;
+    }
+
+    .btn-send{
+        padding: 13px 0px;
+    }
+
+    .map{
+
+    }
+
+/* page contact */
+
+
+/* page blog */
+    .search-input{
+        border-radius: 10px 0px 0px 10px;
+        min-height: 70px;
+    }
+    .btn-search{
+        border-radius: 10px;
+        min-height: 70px;
+        min-width: 180px;
+        margin-left: -5%;
+        cursor: pointer;
+    }
+
+    .card-blog{
+        border: none;
+        max-width: 383px;
+        min-height: 309px;
+        box-sizing: border-box;
+    }
+    .image-writer{
+        max-width: 27px;
+        max-height: 27px;
+    }
+    .arrow-blog{
+        min-width: 32px;
+        min-height: 32px;
+        cursor: pointer;
+    }
+    .arrow-blog-icon{
+        width: 8px;
+    }
+    .page{
+        gap: 30px;
+    }
+/* page blog */
+
+/* page portofolio */
+    .portfolio{
+        border: none;
+    }
+    .image-portofolio{
+        min-height: 400px;
+    }
+/* page portofolio */
+
+/* page about */
+    .about-txt{
+        border-left: 1px solid #fff;
+    }
+    .image-about-service{
+        max-width: 142px;
+    }
+    .txt-service-content{
+        opacity: .4;
+    }
+    .personel-group{
+        gap: 0px;
+    }
+    .card-personel{
+        border-radius: none;
+    }
+    .image-about-group{
+        position: relative;
+    }
+    .image-about{
+        position: absolute;
+    }
+    .image-main-1{
+        top: -40%;
+        z-index: 1;
+    }
+    .image-main-2{
+        top: 20%;
+        right: 0%;
+        z-index: 2;
+    }
+/* page about */
+
+/* page blog detail */
+    .header-main-blog-detail{
+        background: #0C3E65;
+        opacity: 0.7;
+    }
+    .image-writer{
+        max-width: 71px;
+    }
+    .image-writer-detail{
+        width: 71px;
+    }
+    .line-blog-detail{
+        border: 1px solid #fff;
+    }
+    .line-blog-detail-content{
+        border: 1px solid #fff .3;
+    }
+    .artikel-populer{
+        border-left: 1px solid #000;
+    }
+    .artikel-row{
+        max-height: auto;
+    }
+    .artikel-row img{
+        max-height: 69px;
+    }
+    .text-content-detail{
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow-y: hidden;
+    }
+    .soc-med{
+        gap: 16px;
+    }
+    .soc-med-content{
+        width: 44px;
+        height: 44px;
+        box-sizing: border-box;
+        border: 2px solid #e5e5e5;
+    }
+    .fb{
+        max-width: 10px;
+        max-height: 14px;
+    }
+    .twitter{
+        max-width: 16px;
+        max-height: 16px;
+    }
+/* page blog detail */
+
+/* background image */
+
+/* slider */
+    /* .for-slick-slider .items img{
+        transition: all linear .4s;
+    }
+    .for-slick-slider .slick-center img{
+        transform: scale(2);
+    } */
+/* slider */
+
+/* responsive */
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .fs-500-32{
+        font-size: 32px;
+    }
+    .fs-500-24{
+        font-size: 24px;
+    }
+    .fs-500-18{
+        font-size: 18px;
+    }
+    .fs-500-16{
+        font-size: 16px;
+    }
+    .fs-500-14{
+        font-size: 14px;
+    }
+
+    .mb-500-0{
+        margin-bottom: 0px;
+    }
+
+    .ls-500-0{
+        letter-spacing: 0em;
+    }
+    .ls-500-2{
+        letter-spacing: 0.1em;
+    }
+
+    .lh-500-28{
+        line-height: 28px;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .logo{
+        width: 156px;
+        height: 32px;
+    }
+    .header-main h1{
+        line-height: 37px;
+    }
+
+    .carousel-works{
+        gap: 24px;
+    }
+    .main-image-carousel{
+        min-width: 258px;
+        min-height: 258px;
+        margin-right: 20px;
+    }
+    .bg-main-right{
+        right: 5%;
+        height: 53%;
+        width: 90%;
+    }
+    .bg-main-right-bottom{
+        bottom: 45%;
+        left: 15%;
+    }
+    .bg-main-left{
+        left: 5%;
+        height: 53%;
+        width: 90%;
+    }
+    .bg-main-left-bottom{
+        right: 5%;
+        bottom: 45%;
+    }
+
+    .btn-project{
+        max-width: 219px;
+    }
+
+    .client-logo{
+        gap: 50px;
+        text-align: center;
+        display: flex;
+    }
+    .client-logo img{
+        width: 60% !important;
+    }
+    .card-career-group{
+        width: 100%;
+    }
+    .card-career{
+        margin: auto;
+        min-width: 300px;
+    }
+    .image-writer-detail{
+        max-width: 40px;
+    }
+
+    .map{
+        min-height: 400px;
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .main-image-carousel{
+        min-width: 258px;
+        min-height: 258px;
+    }
+    .bg-main-right{
+        right: 5%;
+        height: 55%;
+        width: 90%;
+    }
+    .bg-main-right-bottom{
+        bottom: 45%;
+        left: 10%;
+    }
+    .bg-main-left{
+        left: 5%;
+        height: 53%;
+        width: 90%;
+    }
+    .bg-main-left-bottom{
+        right: 5%;
+        bottom: 45%;
+    }
+
+    .client-logo img{
+        width: 30%;
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .p-900-40{
+        padding-top: 40px;
+    }
+
+    .btn-project{
+        max-width: 219px;
+    }
+
+    .main-image-carousel{
+        min-width: 258px;
+        min-height: 258px;
+    }
+    .bg-main-right{
+        right: 5%;
+        height: 55%;
+        width: 90%;
+    }
+    .bg-main-right-bottom{
+        bottom: 45%;
+        left: 10%;
+    }
+    .bg-main-left{
+        left: 5%;
+        height: 55%;
+        width: 90%;
+    }
+    .bg-main-left-bottom{
+        right: 5%;
+        bottom: 45%;
+    }
+    .card-career{
+        min-width: 300px;
+    }
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+}
+
+
+/* responsive */
